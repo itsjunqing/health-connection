@@ -1,6 +1,6 @@
 .navbar {
-	background: #000000 0% 0% no-repeat padding-box;
-	/* border: 1px solid #707070; */
+	background: #0D4277 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
 	opacity: 1;
 }
 
@@ -47,4 +47,57 @@
 .sign-ons {
 	/* margin: 50px 170px; */
 	text-align: center;
+}
+
+.btn-light:hover {
+	background: #0D4277 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	color: white;
+}
+
+.btn-light {
+	font-family: 'Montserrat', sans-serif !important;	
+	font-weight: 600;
+	background: #0D4277 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	border-color: #0D4277;
+	text-align: center;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+	width: 50%;
+	height:50px;
+}
+.btn-success {
+	border-radius: 20px;
+	padding: 10px 20px;
+}
+.account{
+	text-align: right;
+	padding-right: 10px;
+}
+
+.title{
+	padding:20px 20px 0px 20px;
+	display: flex;
+    justify-content: space-between;
+}
+
+.btn-small{
+	font-family: 'Montserrat', sans-serif !important;	
+	font-weight: 600;
+	background: #0D4277 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	border-color: #0D4277;
+	text-align: center;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+	width: 120px;
+	height:40px;
+	text-align: center;
+}
+.profile-pic{
+	max-width: 65px;
+	height: auto;
 }
