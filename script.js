@@ -15,9 +15,9 @@ class Patient {
 }
 $.getJSON("https://v2-api.sheety.co/510691fcb77df6da24df16a1962065ca/starterhacks/students", function(data){
     $.each(data.students, function(property, value){
-        const patient = new Patient(value.name, value.studentId, value.dateOfBirth, 
-            value.agee, value.registrationDate, value.condition, value.info, value.admissionReason);
-        patientsList.push(patient);
+        // const patient = new Patient(value.name, value.studentId, value.dateOfBirth, 
+        //     value.agee, value.registrationDate, value.condition, value.info, value.admissionReason);
+        // patientsList.push(patient);
 
         $("tbody").append("<tr><td>" + 
                         value.name + "</td><td>" + 
