@@ -109,6 +109,10 @@
 	height:40px;
 	text-align: center;
 }
+
+.btn-small:hover {
+	color: white;
+}
 .profile-pic{
 	max-width: 65px;
 	height: auto;
@@ -179,7 +183,8 @@ tr:nth-child(even) td {
 
        
 tr:nth-child(odd) td { background: #FEFEFE; } 
-  .btn-medium{
+
+.btn-medium{
 	font-family: 'Montserrat', sans-serif !important;	
 	font-weight: 600;
 	background: #0D4277 0% 0% no-repeat padding-box;
@@ -190,6 +195,9 @@ tr:nth-child(odd) td { background: #FEFEFE; }
 	color: #FFFFFF;
 	opacity: 1;
 	width: 220px;
-	height:40px;
-	
-  }
+	height:40px;	
+}
+.btn-medium:hover{
+	color:white;	
+}
+
