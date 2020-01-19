@@ -113,6 +113,9 @@
 	max-width: 65px;
 	height: auto;
 }
+.container{
+	padding-left: 50%;
+}
 .search-container{
     float: left;
     display: block;
