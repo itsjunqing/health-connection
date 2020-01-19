@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Submission</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark">
+        <a class="navbar-brand" href="#">Health<span style="font-weight: 800;">Connect</span></a>
+
+        <div class="text-right">
+            <a href="#" class="nav-link mx-2">LOG-OUT</a>
+            <a href="#" class="nav-link btn-success mx-4"><i class="fas fa-lock"></i> Secure</a>
+            <img class="profile-pic" src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairSides&accessoriesType=Prescription01&hairColor=Platinum&facialHairType=BeardLight&facialHairColor=Platinum&clotheType=ShirtVNeck&clotheColor=Gray02&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light'
+/>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="col">
+            <div class="check"></div>
+        </div>
+        <div class="sign-ons">
+            <img style="display: block; margin: 0 auto;"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEX///8AAACtra37+/uEhISXl5exsbG3t7empqafn5+cnJyRkZGLi4uqqqqioqKZmZl9fX1oaGhISEj19fXv7+92dnZbW1s4ODi9vb0WFhaHh4fd3d3m5uZmZmZcXFxhYWFQUFAfHx/Dw8M1NTXMzMwqKio/Pz8ODg5wcHAnJydKSkpTU1NRal1UAAAE1UlEQVR4nO2d61riMBBAGwHvrhdURHAVRHD1/d9v8bYLtGknM0kmM9+c/6ZzmEna5lKryjAMwzAMwzAMwzAMwzAMwzAMIx+9HncESRkORrPZaDDkjiMZd+6bO+5IErHv/rHPHUsSNgR1Km4JalTcc0634v6uoHMH3DFFpUFQl2KtRLUpnjUL6lH0ZPADHbf+FkEdiodtghoUvX1Qi2KnoHTFjhL9Ys4dJQGQoGRFoKBcRbCgVMVfcEGZikGCEhUDBeUpBgs6t+COOYjjcEE3ljSTeoQQFDWvgRN0t9xxg8GU6Adj7sChnCMF3Yo7ciDYDDo34g4dBl7QnXDHDmKAF3RT7uAhUAQH3MFDQA8yay64g4dAyeANd/AQTiyDJlg26kvUBE2wcE5N0E+fO3gIlkHpgvfaBa0PSs9g3wT9iChRyiAjQlB9iV5ozyBF8J47eAjqBxn1JXqTW3BytzfPOSWeuw8ulp9/enkd3cRD7hL9v+A6ie7SSO4S3ZwiyaJIEcSU6Pb1Mijm7oO3O20kV8xcosPnWiuJFV8JgogMTuuCbpVUkZLB0/DLTcZNDc0S3hgzDzILT1OrZIqZS/TA21gqxUuCIKJE2zZW/UmiSMkgQrD95eUlwQNc5hLtKphxdMUHgmB4Boe/OxuNncW8fXC4BDQ7inrmPW8fvG68DdZ4jqiYN4MTaNMv0TYVP2YVnMMbX0bKIiWD4dsNG08M+7iKksW8JRq4eXMZQTFviQYcJPpWJAt235j8hJfoNPwiT0RByo0eseUXs2vlnSSYt0Sr6gVzoTeC4O4cSQioTdu4S+HPaeTtg3hD94gUpJQoctv9VVbF7CVaIW4WFMV3BsFqiL7ka/C1ODJYbXwrK5jQnfBMgoGPpVuEZfGJS5DQFYOyyChIOTgFXzWglGiEoz34DcdQRZZRdBP8ZjmY4hu3IGUFD/IwTOmD0U6f4We+un9jSolGPF6Hn1joUqSUaNTzg/jRrj0M7JNvdEFKKMf+RntF9MGfYEboUH55Gy1JkKR45GkSsliQT3D9ooGa0/jksPEno/TB8wSC4PWLJs4aBCmjaBrBqpriFfdqggWNokkUe5Q+mCqDH4DXoepsfVezwD74g2/HSZhiwYJxFEFrylyCQeuJu/S/1vrnM4JgyxNSNPCzU849npzfUBKYRZAyO0Umj2DHV2w1CKK+/iZLkPZJChGCtKOcIgRpx5BQ+F7B0kHZvitCkLZgK0IwqyKPIG2qU4Qg7RVBguBaseH8hSrB9XsQfgIOjH8yMgvX+Ak4GYJrxZVyQdTuPlmCpNkpGYIpFQsRJM1OyRBMpViQIGkCzkvjcg4f/qN7SgTjz04VJ0jZHiZEkPbRYhGCMWenChWkff1AhGCs2amCBeMoFi1IO/v5RcOmhrKgKhYvSFUUIEhTFCFIOWAnRBC/G1WMILZQBQniClWUIOagnTDB8L4oTjC0UGt7FyUQsvldpGDICqpQQfhwI1YQWqiCBWHr4KIFIVkULlj1uhSlC1Zd52IE/SdQP23nKlQIVj3/cKNDsEVRi2DlO9qnSLC5L6oSrIb1EVWX4Fpxt1C1CVa7xykVCm5vZNQouFWoOgXXWfxZmVpwR5KO6dHDbX/OHYVhGIZhGIZhGIZhGIZhGIZhGEaB/AUfTFH5HyYrpgAAAABJRU5ErkJggg==">
+            <h1 style="font-weight: 800">Record Submitted!</h1>
+            <div style="margin: 20px auto auto 20px;">The record has been submitted to the system. It will automatically
+                be shared to the university’s student
+                care office in 3 days if no action is taken by the student.</div>
+
+            <a href="hospital-summary.html"><button type="button" class="btn btn-light my-3">Home</button></a>
+            <a href="hospital-form.html"><button type="button" class="btn btn-light my-3">Submit another
+                    record</button></a>
+
+            <p>All information referenced will be shared securely</p>
+            <!-- <p>Maybe a short explanation of what the platform does. More sentences to make the display look a little longer and stuff.</p> -->
+        </div>
+    </div>
+
+
+</body>
+
+</html>
