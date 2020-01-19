@@ -2,9 +2,50 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Health Connection</title>
+	<title>Health Home Page</title>
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.js"
+	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	crossorigin="anonymous"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
-	Index page
+<body style="font-family: 'Montserrat', sans-serif !important;">
+	<nav class="navbar navbar-dark">
+		<a class="navbar-brand" href="#">Health<span style="font-weight: 800;">Connect</span></a>
+		<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		</button> -->
+
+		<div class="text-right">
+			<a href="#" class="nav-link">Account</a>
+			<a href="#" class="nav-link">Help</a>
+		</div>
+	</nav>
+	
+	<div class="container">
+		<h1 style="font-weight: 800;">Main Onboarding Message</h1>
+		<p>Maybe a short explanation of what the platform does. More sentences to make the display look a little longer and stuff.</p>
+
+		<div class="sign-ons">
+			<button type="button" class="btn btn-dark my-3 mx-auto mt-5">Hospital Sign-On</button>
+			<button type="button" class="btn btn-dark my-3">University Sign-On</button>
+			<button type="button" class="btn btn-dark my-3">Student Sign-On</button>
+		</div>
+
+
+		<!-- <form class="login">
+			<label for="email">Enter your work email (student/hospital/provider):</label><br>
+			<input type="email" id="email" size="30" placeholder="john.smith@university.ca" required><br>
+
+			<label for="password">Enter your password:</label><br>
+			<input type="password" id="password" name="password" size="30" required><br>
+
+			<input type="submit" value="Submit">
+		</form>  -->
+	</div>
+
+	<script type="text/javascript" src="./index.js"></script>
 </body>
 </html>
