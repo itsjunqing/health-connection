@@ -1,0 +1,64 @@
+.navbar {
+	background: #0D4277 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.html {
+	font-family: 'Montserrat', sans-serif !important;	
+}
+.navbar-brand {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;	
+	font-weight: 500;
+	font-size: 35px;
+	margin-left: 15px;
+}
+
+
+.nav-link  {
+	display: inline;
+	font-family: 'Montserrat', sans-serif;	
+	color: #FFFFFF;
+	opacity: 1;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.nav-link:hover{
+	color: white;
+
+}
+
+.btn-success {
+	border-radius: 20px;
+	padding: 10px 20px;
+}
+
+.btn-light {
+	font-family: 'Montserrat', sans-serif !important;	
+	font-weight: 600;
+	background: #0D4277 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	border-color: #0D4277;
+	text-align: center;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+.btn-light:hover {
+	background: #0D4277 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	color: white;
+}
+
+.btn-light:active {
+	background: #0D4277 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	color: white;
+}
+
+.inner-container {
+	
+}
