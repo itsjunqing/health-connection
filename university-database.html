@@ -6,12 +6,12 @@
     <title>University Database</title>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap"
-        rel="stylesheet">
+    rel="stylesheet">
     <link rel="stylesheet" type="text/css"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
@@ -22,46 +22,51 @@
         <div class="text-right">
             <a href="index.html" class="nav-link mx-2">LOG-OUT</a>
             <a href="#" class="nav-link btn-success mx-4"><i class="fas fa-lock"></i> Secure</a><img class="profile-pic"
-                src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=Brown&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown' />
+            src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=Brown&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown' />
         </div>
     </nav>
+   
     <div class="container">
         <h1 style="font-weight: 800;text-align: center;">Database</h1>
         <div class="column">
             <div class="row">
-
                 <input type="text" placeholder="   Search..." name="search"
-                    style="margin-left: 25px; width: 91%; border:  rgb(172, 172, 172) solid 1px;">
+                style="margin-left: 25px; width: 91%; border:  rgb(172, 172, 172) solid 1px;">
                 <button type="submit" style="border: 0px;" class="search-btn"><i class="fa fa-search"
-                        style="padding: 8px;"></i></button>
-
-
+                    style="padding: 8px;"></i></button>
             </div>
-            <div>
-                <div style="text-align: center; padding:10px">
-
-                    <button type="button" class="btn btn-small mx-3">Name</button>
-                    <button type="button" class="btn btn-small mx-3">Student ID</button>
-                    <button type="button" class="btn btn-small mx-3">Last Added</button>
-                    <button type="button" class="btn btn-small mx-3">Condition</button>
-                    <button type="button" class="btn btn-medium mx-3">Reason For Admission</button>
-                    
-                </div>
+            <div style="text-align: center; padding:10px">
+                <button type="button" class="btn btn-small mx-3">Name</button>
+                <button type="button" class="btn btn-small mx-3">Student ID</button>
+                <button type="button" class="btn btn-small mx-3">Last Added</button>
+                <button type="button" class="btn btn-small mx-3">Condition</button>
+                <button type="button" class="btn btn-medium mx-3">Reason For Admission</button>
             </div>
 
             <div style="margin: 10px;">
-                <table border=1px;">
+                <table border=1px; >
                     <tbody>
                         <tr>
                             <th>Name</th>
-                            <th>University</th>
+                            <!-- <th>University</th> -->
                             <th>Student ID</th>
                             <th>Date of Birth</th>
                             <th>Age</th>
                             <th>Condition</th>
-                            <th>Time Registered</th>
-                            <th>Additional Info</th>
-                            <th>Reason for Admission</th>
+                            <th>Registration Date</th>
+                            <th>Info</th>
+                            <th>Admission Reason</th>
+                        </tr>
+                        <!-- <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
@@ -95,36 +100,14 @@
                             <td>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                        </tr>
+                        </tr> -->
                     </tbody>
                 </table>
-                <!-- DivTable.com -->
-
             </div>
         </div>
-        <!-- <div class="container">
-            <div class="sign-ons">
-                <img style="display: block; margin: 0 auto;padding-bottom: 8px;"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf-DGQdmr2bbUau_A_rTSMIAW6YnSofNRgTpk94-YW2HN_X7y4gg&s">
-                <button type="button" class="btn btn-light my-3 mx-auto">Update Center</button>
-                <button type="button" class="btn btn-light my-3">Request Additional Information</button>
-                <button type="button" class="btn btn-light my-3">Search Database</button>
+    </div>
 
-                <p>Maybe a short explanation of what the platform does. More sentences to make the display look a little longer and stuff.</p>
-            </div>
-        </div> -->
-        <!-- <button class="hospital-btn ">New Record</button> -->
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
