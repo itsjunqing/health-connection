@@ -17,7 +17,7 @@
 
 <body>
     <nav class="navbar navbar-dark">
-        <a class="navbar-brand" href="#">Health<span style="font-weight: 800;">Connect</span></a>
+        <a class="navbar-brand" href="./">Health<span style="font-weight: 800;">Connect</span></a>
 
         <div class="text-right">
             <a href="index.html" class="nav-link mx-2">LOG-OUT</a>
@@ -27,7 +27,7 @@
     </nav>
    
     <div style="padding: 0px 2.5% 0px 2.5%">
-        <h1 style="font-weight: 800;text-align: center;">Database</h1>
+        <h1 style="font-weight: 600;text-align: center;" class="my-3">Database</h1>
         <div class="column">
             <div class="row">
                 <input type="text" placeholder="   Search..." name="search"
@@ -36,11 +36,12 @@
                     style="padding: 13.5px;"></i></button>
             </div>
             <div style="text-align: center; padding:10px">
+                <h1 style="font-weight: 600;text-align: center;" class="my-3 mb-4">Sort By</h1>
                 <button type="button" class="btn btn-small mx-3">Name</button>
                 <button type="button" class="btn btn-small mx-3">Student ID</button>
                 <button type="button" class="btn btn-small mx-3">Last Added</button>
                 <button type="button" class="btn btn-small mx-3">Condition</button>
-                <button type="button" class="btn btn-medium mx-3">Reason For Admission</button>
+                <button type="button" class="btn btn-medium mx-3">Admission Reason</button>
             </div>
 
             <div style ="padding-left: 10px; padding-right: 20px; margin-bottom: 5rem;">
@@ -51,7 +52,7 @@
                             <th>Student ID</th>
                             <th>Date of Birth</th>
                             <th>Age</th>
-                            <th>Registration Date</th>
+                            <th>Registration Date/Time</th>
                             <th>Condition</th>
                             <th style="width: 28%;">Info</th>
                             <th>Admission Reason</th>
@@ -62,7 +63,22 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="./script.js"></script>
+    <!-- <script type="text/javascript" src="./script.js"></script> -->
+    <script type="text/javascript">
+        $.getJSON("https://v2-api.sheety.co/510691fcb77df6da24df16a1962065ca/starterhacks/students", function(data){
+            $.each(data.students, function(property, value){
+                $("tbody").append("<tr><td>" + 
+                                value.name + "</td><td>" + 
+                                value.studentId + "</td><td>" +
+                                value.dateOfBirth + "</td><td>" +
+                                value.age + "</td><td>" +
+                                value.registrationDate + "</td><td>" +
+                                value.condition + "</td><td>" +
+                                value.info + "</td><td>" +
+                                value.admissionReason + "</td></tr>")
+            })
+        })
+    </script>
 </body>
 
 </html>
