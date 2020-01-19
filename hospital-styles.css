@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
 	background: #0D4277 0% 0% no-repeat padding-box;
 	border: 1px solid #707070;
 	opacity: 1;
@@ -45,6 +45,8 @@
 	letter-spacing: 0;
 	color: #FFFFFF;
 	opacity: 1;
+	width: 50%;
+	height:50px;
 }
 
 .btn-light:hover {
@@ -52,13 +54,23 @@
 	border: 1px solid #707070;
 	color: white;
 }
+.container {
+	/* margin-right: 50px;
+	margin-left: 50px; */
+	/* margin: 80px 200px; */
+/* } */
+/* .inner-container {
+	width: 300px;
+	margin: auto;
+	padding: 6px 12px;
+	text-align: center;
 
-.btn-light:active {
-	background: #0D4277 0% 0% no-repeat padding-box;
-	border: 1px solid #707070;
-	color: white;
-}
-
-.inner-container {
-	
-}
+} */
+/* .account{
+	text-align: right;
+	padding-right: 10px;
+} */
+/* .sign-ons { */
+	/* margin: 50px 170px; */
+	/* text-align: center; */
+/* } 
