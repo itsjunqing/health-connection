@@ -150,7 +150,11 @@
 	  padding-left: 10px;
   }
         
-tr:nth-child(even) td { background: #F1F1F1; }   
+tr:nth-child(even) td { 
+	background: #F1F1F1; 
+}   
+
+
 
 
        
